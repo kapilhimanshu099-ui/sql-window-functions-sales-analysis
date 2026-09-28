@@ -32,10 +32,12 @@ Requires MySQL 8.0+ (window functions are not in 5.7).
 - `queries.sql`: 10 documented queries plus a `sales` view
 
 ## Key findings
-*(Fill in after running on your machine. Add a screenshot of each result and one insight line, e.g.:)*
-- South leads with X% of total revenue; Laptop is the #1 product in most regions.
-- Revenue peaks in [month]; the 3-month moving average shows [trend].
-- N customers fall in the top spend quartile and generate X% of revenue.
+- The South region contributes the largest share of revenue (about 27%), followed by North (about 22%) (Q8).
+- Laptop is the top revenue product in the Central region, followed by Monitor (Q1).
+- South's best month was May 2025, beating its runner-up month by roughly ₹3.2 lakh (Q10).
+- The highest-spending customer is Aditya Singh, with about ₹11.1 lakh in total purchases (Q7).
+
+Screenshots of every query result are in the `screenshots` folder.
 
 ## Skills demonstrated
 CTEs, window functions (ranking, offset, aggregate, NTILE, frames, named windows), joins, views, date functions.
